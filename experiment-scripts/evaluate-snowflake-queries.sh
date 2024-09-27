@@ -17,7 +17,7 @@ RUN_WARMUP=${7:-"yes"}  # can also be 'no'
 
 # Point to the right system's query path
 if [ "${system}" = "snowflake" ]; then
-  QUERY_PATHS="/home/ec2-user/experiments/experiment-scripts/queries/sql"
+  QUERY_PATHS="/home/ec2-user/dataframe-experiments/experiment-scripts/queries/sql"
 else
   QUERY_PATHS="/home/dan/data/projects/java/rumbledb-snowflake/workloads/ssb/queries/jsoniq"
 fi

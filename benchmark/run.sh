@@ -1,7 +1,7 @@
 #! /bin/bash
 
 source /home/ec2-user/anaconda3/etc/profile.d/conda.sh # put your path to conda
-export PYTHONPATH=$PYTHONPATH:/home/ec2-user/experiments
+export PYTHONPATH=$PYTHONPATH:/home/ec2-user/dataframe-experiments
 
 
 tasks=("ssb_1.1" "ssb_1.2" "ssb_1.3" "ssb_2.1" "ssb_2.2" "ssb_2.3" "ssb_3.1" "ssb_3.2" "ssb_3.3" "ssb_3.4" "ssb_4.1" "ssb_4.2" "ssb_4.3") #("ssb_1.1" "ssb_1.2" "ssb_1.3" "ssb_2.1" "ssb_2.2" "ssb_2.3" "ssb_3.1" "ssb_3.2" "ssb_3.3" "ssb_3.4" "ssb_4.1" "ssb_4.2" "ssb_4.3" "Fork" "Endeavor" "Catboost" "HousePricePrediction")

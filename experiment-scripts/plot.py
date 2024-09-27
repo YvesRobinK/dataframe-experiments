@@ -17,7 +17,7 @@ pd.options.mode.chained_assignment = None
 SF1 = 53446198
 
 FLAGS = flags.FLAGS
-#'/home/yves/Desktop/MasterThesis/master_thesis/snowflake_scipts/rumblebd-snowflake-scripts-master/workloads/ssb/experiment-scripts/experiments/snowflake_ssb_run_2024-03-31_20_19_13_857/summary.log.csv'
+
 flags.DEFINE_list('summary_paths', None, 'The path to your summary file.')
 flags.DEFINE_enum('plot_type', 'execution-time', ['execution-time', 
   'compilation-time', 'bytes-scanned', 'credits-used', 'total-time', 

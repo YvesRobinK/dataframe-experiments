@@ -28,10 +28,10 @@ Put the bucket name in `credentials.json` as follow:
     "S3_BUCKET_SPACESHIP": "bucket_name_2",
     "S3_BUCKET_SSB": "bucket_name_3",
     "S3_BUCKET_HOUSEPRICE": "bucket_name_4"
-    "PWD" : "/path/to/experiments/"
+    "PWD" : "/path/to/dataframe-experiments/"
 ```
 Note that `S3_BUCKET` is the default bucket and when the query name is could not match either of the workloads, it uses this bucket. For the current version of experiments you can ignore it.
-If you want to upload all of the scaling factors at once for spaceship and house price data, use `./benchmark/data/<data_set>/upload_all_sf_s3.sh` script. If the scripts could not find `credentials.json` file, run the following script in the terminal: `export PYTHONPATH=$PYTHONPATH:/path/to/experiments`.
+If you want to upload all of the scaling factors at once for spaceship and house price data, use `./benchmark/data/<data_set>/upload_all_sf_s3.sh` script. If the scripts could not find `credentials.json` file, run the following script in the terminal: `export PYTHONPATH=$PYTHONPATH:/path/to/dataframe-experiments`.
 
 NOTE: for uploading SSB data to S3, make sure to set `SSB_SOURCE_DATA_LOCATION` in `credentials.json`. We use this parameter as we already had the SSB data ready in our public bucket. This might change in the future.
 
