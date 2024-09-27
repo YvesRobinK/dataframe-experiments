@@ -131,7 +131,7 @@ Create an EC2 on a m5d.12xlarge machine. Use [this repository](https://github.co
 
 ## Running experiments
 Once your EC2 instance is deployed, ssh into the instance.
-`cd experiments/benchmark/`
+`cd dataframe-experiments/benchmark/`
 `nano run.sh`
 In `run.sh` you can set the configuration of your experiments.These are the following arguments that should be set:
 - `tasks`: indicates the query you want to run. You have the following options: ("ssb_x.x" "Fork" "Endeavor" "Catboost" "HousePricePrediction")
